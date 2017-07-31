@@ -1,0 +1,14 @@
+{
+  "name": "hello-books",
+  "version": "1.0.0",
+  "description": "Simple application that helps manage a library and its processes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "library"
+  ],
+  "author": "temidayo oyedele",
+  "license": "ISC"
+}
