@@ -5,5 +5,5 @@ module.exports = (app) => {
     message: 'Welcome to Hello-Books API!',
   }));
 
-  app.post('/api/users', usersController.create);
+  app.post('/api/signup', usersController.create);
 };
