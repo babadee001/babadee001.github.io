@@ -2,7 +2,7 @@
 <html lang="en"> 
 <head>     
   <meta charset="UTF-8">     
-  <title>Hello-Books | View All</title>     
+  <title>Hello-Books | Profile</title>     
   <meta name="viewport" content="width=device-width, initial-scale=1">     
   <link rel="stylesheet" href="css/bootstrap.min.css">     
   <link rel="stylesheet" href="css/material.min.css">        
@@ -12,7 +12,7 @@
 </head>
 
 <body>        
-  <div class="container-fluid" id="main">          
+  <div class="container container-fluid" id="main">          
     <div class="navbar navbar-default navbar-fixed-top">         
       <div class="navbar-header">           
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-warning-collapse">             
@@ -24,14 +24,57 @@
       <div class="navbar-collapse collapse navbar-warning-collapse">           
         <ul class="nav navbar-nav navbar-right">  
           <li><a href="#aboutme">About</a></li>  
-          <li><a target="_blank" href="#">Contact Admin</a></li>           
+          <li><a target="_blank" href="#">Contact Admin</a></li> 
+          <li><a href="#logout">Log out</a></li>          
         </ul>         
       </div>       
     </div> 
 
-    <section>
-      <h3> Available Books</h3>
-      <div class="row text-center">
+    <div class="row profile">
+    <div class="col-md-3">
+      <div class="profile-sidebar">
+        <!-- SIDEBAR USER TITLE -->
+        <div class="profile-usertitle">
+        </div>
+        <!-- END SIDEBAR USER TITLE -->
+        <!-- SIDEBAR BUTTONS -->
+        <div class="profile-userbuttons">
+          <a href="history.html"><button type="button" class="btn btn-primary btn-sm">Categories</button></a>
+        </div>
+        <!-- END SIDEBAR BUTTONS -->
+        <!-- SIDEBAR MENU -->
+        <div class="profile-usermenu">
+          <ul class="nav">
+            <li class="active">
+              <a href="#">
+              <i class="glyphicon glyphicon-home"></i>
+              Sci-fi</a>
+            </li>
+            <li>
+              <a href="#">
+              <i class="glyphicon glyphicon-user"></i>
+              Epic</a>
+            </li>
+            <li>
+              <a href="#" target="_blank">
+              <i class="glyphicon glyphicon-ok"></i>
+              Vintage</a>
+            </li>
+            <li>
+              <a href="#">
+              <i class="glyphicon glyphicon-flag"></i>
+              |Romance</a>
+            </li>
+          </ul>
+        </div>
+        <!-- END MENU -->
+      </div>
+    </div>
+    <div class="col-md-9">
+            <div class="profile-content">
+         <h3>Available Books</h3>
+         <br/>
+         <div class="row text-center">
         <div class="col-xs-3">
           <a href="#" class="thumbnail">
            <img src="img/design.jpg" class="img-responsive">
@@ -54,60 +97,22 @@
      <button type="button" class="btn btn-primary btn-sm">Borrow</button>
    </div>
    <div class="col-xs-3">
-    <a href="#" class="thumbnail">
-     <img src="img/design.jpg" class="img-responsive">
-     <caption>best seller</caption>
-   </a>
-   <button type="button" class="btn btn-primary btn-sm">Borrow</button>
- </div>
- <div class="col-xs-3">
-  <a href="#" class="thumbnail">
-   <img src="img/design.jpg" class="img-responsive">
-   <caption>best seller</caption>
- </a>
- <button type="button" class="btn btn-primary btn-sm">Borrow</button>
-</div>
-<div class="col-xs-3">
-  <a href="#" class="thumbnail">
-   <img src="img/design.jpg" class="img-responsive">
-   <caption>best seller</caption>
- </a>
- <button type="button" class="btn btn-primary btn-sm">Borrow</button>
-</div>
-<div class="col-xs-3">
-  <a href="#" class="thumbnail">
-   <img src="img/design.jpg" class="img-responsive">
-   <caption>best seller</caption>
- </a>
- <button type="button" class="btn btn-primary btn-sm">Borrow</button>
-</div>
-<div class="col-xs-3">
-  <a href="#" class="thumbnail">
-   <img src="img/design.jpg" class="img-responsive">
-   <caption>best seller</caption>
- </a>
- <button type="button" class="btn btn-primary btn-sm">Borrow</button>
-</div>
-
-</div>
-<center>
-  <ul class="pagination" "text-center">
-    <li><a href="#">1</a></li>
-    <li class="active"><a href="#">2</a></li>
-    <li><a href="#">3</a></li>
-    <li><a href="#">4</a></li>
-    <li><a href="#">5</a></li>
-  </ul>
-</center>
-
-</section>  
+          <a href="#" class="thumbnail">
+           <img src="img/design.jpg" class="img-responsive">
+           <caption>best seller</caption>
+         </a>
+         <button type="button" class="btn btn-primary btn-sm">Borrow</button>
+         </div>
+            </div>
+    </div>
+  </div>
 
 
-<footer class="navbar-fixed-bottom text-center">
-  <em>           
-    <p> Just Books!  . . . <i class="fa fa-book"></i></p>         
-  </em>       
-</footer>     
-</div> 
+    <footer class="navbar-fixed-bottom text-center">
+      <em>           
+        <p> Just Books!  . . . <i class="fa fa-book"></i></p>         
+      </em>       
+    </footer>     
+  </div> 
 </body>
 </html> 
