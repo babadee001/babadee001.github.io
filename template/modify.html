@@ -1,0 +1,85 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+  <head>     
+    <meta charset="UTF-8">     
+    <title>Modify book | Hello-Books</title>     
+    <meta name="viewport" content="width=device-width, initial-scale=1">     
+    <link rel="stylesheet" href="css/bootstrap.min.css">     
+    <link rel="stylesheet" href="css/material.min.css">        
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">      
+    <link href="https://fonts.googleapis.com/css?family=Merienda|Julee|Quintessential|Pacifico" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css"> 
+  </head>
+  
+  <body>        
+    <div class="container-fluid" id="main">          
+      <div class="navbar navbar-default navbar-fixed-top">         
+        <div class="navbar-header">           
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-warning-collapse">             
+            <span class="icon-bar"></span>             <span class="icon-bar"></span>             
+            <span class="icon-bar"></span>          
+          </button>           
+          <a class="navbar-brand" href="../index.html"><i class="fa fa-book" aria-hidden="true"></i> Hello-Books</a>         
+        </div>         
+        <div class="navbar-collapse collapse navbar-warning-collapse">           
+          <ul class="nav navbar-nav navbar-right">  
+            <li><a href="#aboutme">About</a></li>  
+            <li><a target="_blank" href="#">Contact Admin</a></li>           
+          </ul>         
+        </div>       
+      </div>        
+          
+      <div id="main">
+        <div class="row loginOrSignup">
+          <div class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3">
+            <h3 align="center"> Modify Book </h3>
+            
+            <form id="addform" method="post" action="" class="form-horizontal">
+            <fieldset>
+              <div class="form-group label-floating is-empty">
+                <label for="inputEmail" class="control-label"> Title: </label>
+                <input type="title" name="title" class="form-control" id="">
+                <span class="help-block"> </span>  
+              </div>      
+              <div class="form-group label-floating is-empty">   
+                <label for="author" class="control-label"> Author: </label>    
+                <input type="text" name="author" class="form-control" id="">     
+                <span class="help-block"> </span>    
+              </div>
+              <div class="form-group label-floating is-empty">   
+                <label for="category" class="control-label"> Category: </label>    
+                <input type="text" name="category" class="form-control" id="">     
+                <span class="help-block"> </span>    
+              </div>
+              <div class="form-group label-floating is-empty">   
+                <label for="quantity" class="control-label"> Quantity: </label>    
+                <input type="text" name="quantity" class="form-control" id="">     
+                <span class="help-block"> </span>    
+              </div>
+              <div class="form-group label-floating is-empty">   
+                <label for="description" class="control-label"> Description: </label>    
+                <input type="text" name="description" class="form-control" id="">     
+                <span class="help-block"> </span>    
+              </div>
+      
+              <div class="form-group text-center">      
+                <div class="col-md-12">      
+                  <button type="button" id="loginSubmit" class="btn btn-block btn-raised darkBtn"> AModify book</button>    
+                </div>
+              </div>    
+            </fieldset>    
+          </form>  
+          </div>
+        </div>    
+      </div>
+              
+        
+        
+      <footer class="navbar-fixed-bottom text-center">
+        <em>           
+          <p> Just Books!  . . . <i class="fa fa-book"></i></p>         
+        </em>       
+      </footer>     
+    </div> 
+  </body>
+</html> 
