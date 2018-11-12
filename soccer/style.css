@@ -1,0 +1,254 @@
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+.row.content {height: 1500px}
+      
+/* Set gray background color and 100% height */
+.sidenav {
+  background-color: #f1f1f1;
+  height: 100%;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height: auto;} 
+}
+.secondsection {
+    background: #f1f1f1;
+    height: 500px;
+}
+
+.navbar {
+	background-color: transparent !important;
+	padding: 0px;
+	height: 50px;
+	transition: background-color 0.5s, height 0.5s;
+	border: none;
+}
+ /* @media only screen and (max-width: 400px){
+	 .navbar{
+		background-color: #43bf06 !important;
+		padding: 0px;
+		height: 50px;
+		transition: background-color 0.5s, height 0.5s;
+		border: none;
+	 }
+ } */
+ .navbar-brand {
+	font-family: 'Berkshire Swash', cursive !important;
+	font-size: 20px;
+}
+ .navbar-brand img{
+	height: 70px;
+	margin-top: -20px;
+}
+ body {
+	font-family: 'Comfortaa', 'Roboto', 'Ubuntu Mono', sans-serif;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+ .navbar-nav li {
+	list-style-type: none;
+	z-index: 1000;
+}
+ .navbar-nav li a {
+	color: white !important;
+}
+ .nav-item {
+	padding: 13px 10px;
+}
+ .nav-link {
+    display: block;
+    padding: .5rem 1rem;
+}
+ a.nav-link {
+	background-color: transparent !important;
+	text-align: center;
+	font-size: 17px;
+}
+ .nav-link:hover {
+	background-color:#024d28 !important;
+	border-radius: 10px;
+	text-decoration: none;
+	width: 100px;
+}
+ .nav-item-cfh {
+	height: 66px;
+	color: #0d9c58 !important;
+}
+ .nav-item-cfh:hover{
+	background-color: rgba(0,0,0, 0.2);
+}
+ .navbar-nav ul li {
+	height: 100%;
+	color: #0d9c58;
+}
+
+.second-section {
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;    
+}
+ .second-section .title-question {
+    margin:  auto;
+    margin-top: 80px;
+    color: #43bf06;
+    font-weight: bold;
+    line-height: 0.001em;
+    word-wrap: break-word;
+}
+ .second-section .title-question h1{
+    text-align: center;
+    font-family: 'Righteous';
+}
+ .second-section .description {
+    margin-top: 20px;
+    height: auto;
+    text-align: center;
+    font-size: 25px;   
+    padding-bottom: 50px;
+    font-family: 'Quicksand', 'Roboto', 'Hammersmith+One';
+}
+ .second-section .warning{
+    font-size: 20px;
+    font-weight: bold;
+}
+ .second-section .warning b{
+    color: red;
+}
+
+.third-section {
+    height: auto;
+    background-color: black;
+    padding-top: 60px;
+    padding-bottom: 60px; 
+ 
+}
+ .third-section .how-to-play-title {
+    margin: auto;
+}
+ .third-section .how-to-play-title h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Righteous';
+}
+ .third-section img {
+    margin-top: 20px;
+    max-height: 324px;
+    max-width: 251px;
+ }
+ .third-section img:hover {
+    margin-top: 20px;
+    height: 324px;
+    width: 251px;
+    left: 50%;
+}
+
+.fourth-section {
+    background-color: white;
+    min-height: 100%;
+    padding-top: 80px;
+}
+ .fourth-section h1{
+   text-align: center;
+   color: #43bf06;
+   font-family: 'Righteous';
+}
+ .fourth-section h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Hammersmith+One';
+}
+ .fourth-section h2 i{
+    color: #ecb60d;
+    font-size: 15px;
+}
+ .fourth-section .fourth-section-content {
+    margin-top: 50px;
+}
+ .fourth-section .fourth-section-content p {
+  font-family: 'Hammersmith+One';
+  font-size: 20px;
+}
+.fourth-section .fourth-section-content img {
+    max-width: 200px;
+}
+ .fourth-section .fourth-section-content .makeAWish, 
+.fourth-section .fourth-section-content .donate {
+    margin: auto;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+ .fourth-section .fourth-section-content .donate {
+    color: #ffffff;
+    font-weight: bold;
+    border-top: 1px solid #fedaac;
+    display: block;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: rgba(249,147,49, 1);
+    transition: background 1s;
+    margin-top: 20px;
+ }
+ .fourth-section .fourth-section-content .donate .btn:hover {
+    background: rgb(245, 152, 66);
+}
+ .embed-responsive-16by9 {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+ .embed-responsive-16by9 iframe, .embed-responsive-16by9 object, .embed-responsive-16by9 embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+.footer-section {
+    background-color:black;
+    position: relative;
+  }
+   .footer-section p {
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Hammersmith+One';
+  }
+   .footer-section p a {
+    color: #43bf06;
+    font-family: 'Hammersmith+One';
+  }
+   .footer-section .github{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-content: center;
+   align-items: center;
+   margin-top: 30px;
+  } 
+   .footer-section .github .twitter-follow-button .btn{
+      height: 50px;
+  }
+  @media (max-width: 400px) {
+    .footer-section .github{
+      margin-top: 0px;
+      float: left;
+    } 
+  }
