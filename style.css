@@ -34,7 +34,7 @@ footer {
 	transition: background-color 0.5s, height 0.5s;
 	border: none;
 }
- /* @media only screen and (max-width: 400px){
+ @media only screen and (max-width: 400px){
 	 .navbar{
 		background-color: #43bf06 !important;
 		padding: 0px;
@@ -42,7 +42,7 @@ footer {
 		transition: background-color 0.5s, height 0.5s;
 		border: none;
 	 }
- } */
+ }
  .navbar-brand {
 	font-family: 'Berkshire Swash', cursive !important;
 	font-size: 20px;
@@ -157,6 +157,7 @@ footer {
     background-color: white;
     min-height: 100%;
     padding-top: 80px;
+    padding-bottom: 80px;
 }
  .fourth-section h1{
    text-align: center;
@@ -252,3 +253,9 @@ footer {
       float: left;
     } 
   }
+
+  .navbar-scroll {
+	background-color: #73c441 !important;
+    padding: 0px;
+    height:70px;
+}
